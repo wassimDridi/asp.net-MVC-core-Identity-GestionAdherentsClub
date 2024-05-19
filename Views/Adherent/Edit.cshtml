@@ -1,0 +1,88 @@
+﻿@model GestionAdherentsClub.Models.Adherent
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+
+<div class="modal-content">
+
+    <div class="modal-header">
+        <h4 class="modal-title"> Edit Adherent </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <div class="modal-body">
+
+        <form asp-action="Edit" id="myForm" enctype="multipart/form-data">
+
+            <div class="card imgholder" enctype="multipart/form-data">
+                <label for="imgInput" class="upload">
+                    <input type="file" name="image" id="imgInput">
+                    <i class="bi bi-plus-circle-dotted"></i>
+                </label>
+                <img src="~/images/@Model.img" alt="" width="200" height="200" class="img" id="selectedImage">
+            </div>
+
+            <div class="inputField">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="AdherentId" />
+                <div class="form-group">
+                    <label asp-for="AdherentName" class="control-label"></label>
+                    <input asp-for="AdherentName" class="form-control" />
+                    <span asp-validation-for="AdherentName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AdherentAdresse" class="control-label"></label>
+                    <input asp-for="AdherentAdresse" class="form-control" />
+                    <span asp-validation-for="AdherentAdresse" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AdherentDateNaissance" class="control-label"></label>
+                    <input asp-for="AdherentDateNaissance" class="form-control" />
+                    <span asp-validation-for="AdherentDateNaissance" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClubID" class="control-label"></label>
+                    <select asp-for="ClubID" class="form-control" asp-items="ViewBag.ClubID"></select>
+                    <span asp-validation-for="ClubID" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <input type="submit" value="Save" class="btn btn-primary submit" />
+
+            </div>
+
+        </form>
+    </div>
+
+ 
+</div>
+
+
+
+
+
+
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        // Add event listener to input file element
+        document.getElementById('imgInput').addEventListener('change', function () {
+            // Get the selected file
+            var file = this.files[0];
+            // Create object URL from the selected file
+            var objectURL = URL.createObjectURL(file);
+            // Update the src attribute of the image element with the object URL
+            document.getElementById('selectedImage').src = objectURL;
+        });
+    </script>
+}
+

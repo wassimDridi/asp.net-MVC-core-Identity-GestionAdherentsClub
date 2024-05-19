@@ -1,0 +1,47 @@
+﻿@model GestionAdherentsClub.Models.Adherent
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="mt-4">Delete</h1>
+
+<div class="card mt-4 p-4">
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>Adherent</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.AdherentName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.AdherentName)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.AdherentAdresse)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.AdherentAdresse)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.AdherentDateNaissance)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.AdherentDateNaissance)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Club)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Club.ClubID)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="AdherentId" />
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model GestionAdherentsClub.ViewModels.RegisterViewModel
+@{
+	ViewBag.Title = "User Registration";
+}
+
+<link rel="stylesheet" href="~/css/account.css" />
+
+
+
+
+
+
+
+<section class="container">
+	<div class="login-container">
+		<div class="circle circle-one"></div>
+		<div class="form-container">
+			<img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
+			<h1 class="opacity">Register</h1>
+			<form method="post">
+				<div asp-validation-summary="All" class="text-danger"></div>
+				<input asp-for="Email" class="form-control" placeholder="Email" />
+				<span asp-validation-for="Email" class="text-danger"></span>
+				<input asp-for="Password" class="form-control" placeholder="PASSWORD" />
+				<span asp-validation-for="Password" class="text-danger"></span>
+				<input asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password" />
+				<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				<input type="submit" value="Register" class="opacity" />
+
+			</form>
+			<div class="register-forget opacity">
+				
+			</div>
+		</div>
+		<div class="circle circle-two"></div>
+	</div>
+	<div class="theme-btn-container"></div>
+</section>

@@ -1,0 +1,38 @@
+﻿@model GestionAdherentsClub.ViewModels.LoginViewModel
+@{
+	ViewBag.Title = "User Login";
+}
+<link rel="stylesheet" href="~/css/account.css" />
+
+@{
+	var returnUrl = Context.Request.Query["ReturnUrl"];
+}
+
+
+
+
+<section class="container">
+	<div class="login-container">
+		<div class="circle circle-one"></div>
+		<div class="form-container">
+			<img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
+			<h1 class="opacity">LOGIN</h1>
+			<form asp-route-returnurl="@returnUrl" method="post">
+				<input asp-for="Email" class="form-control" placeholder="Email"  />
+				<span asp-validation-for="Email" class="text-danger"></span>
+				<input asp-for="Password" class="form-control" placeholder="PASSWORD"  />
+				<span asp-validation-for="Password" class="text-danger"></span>
+				
+				<button type="submit" class="opacity">Login</button>
+			</form>
+			<div class="register-forget opacity">
+				<label asp-for="RememberMe">
+					<input asp-for="RememberMe" />
+					@Html.DisplayNameFor(m => m.RememberMe)
+				</label>
+			</div>
+		</div>
+		<div class="circle circle-two"></div>
+	</div>
+	<div class="theme-btn-container"></div>
+</section>

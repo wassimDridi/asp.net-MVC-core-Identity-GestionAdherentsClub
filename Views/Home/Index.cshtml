@@ -1,0 +1,125 @@
+﻿@model List<GestionAdherentsClub.Models.ClubAdherentsViewModel>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+
+    #mincard .card:hover {
+        background-color: #343a40; /* New background color on hover */
+        transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    }
+
+        #mincard .card:hover  {
+            transform: scale(1.1); /* Zoom in effect on image */
+            transition: transform 0.8s ease; /* Smooth transition for zoom effect */
+        }
+
+</style>
+
+<div class="text-center">
+    <h1 class="display-3" style="color:white;">ClubHub</h1>
+</div>
+
+<br />
+<hr style="color: white;" />
+<br />
+
+
+<div class="container">
+    <div class="row">
+        <!-- Image Column -->
+        <div class="col-md-6">
+            <img src="~/images/logosite.png" class="card-img-top" alt="Fissure in Sandstone" />
+        </div>
+        <!-- Text/Button Column -->
+        <div class="col-md-6" style="background-color: transparent; color:white; border:2px thick white; border-radius:10px;">
+            <br /><br />
+            <div class="card-body">
+                <h5 class="card-title">ClubHub: Say Hello to Your Premier Club Experience!</h5>
+                <p class="card-text">Discover a world of exclusive club events and connect with like-minded enthusiasts. Log in now to explore our offerings or register to join our community.</p>
+          
+                @if (SignInManager.IsSignedIn(User))
+                {
+                        <form method="post" asp-controller="account" asp-action="logout">
+                            <button type="submit" style="width:auto" class="nav-link btn btn-outline-primary text-white py-0">Logout @User.Identity.Name</button>
+                        </form>
+                }
+                else
+                {
+                    <a class="nav-link btn btn-outline-primary text-white py-0" asp-controller="Account" asp-action="Register">Register</a>
+                    <a class="nav-link btn btn-outline-primary text-white py-0" asp-controller="Account" asp-action="Login">Login</a>
+                }
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<br /><hr style="color: white;"/> <br />
+
+
+
+<div style="border: 4px solid #333; border-radius: 15px;">
+
+    @foreach (var clubAdherentsViewModel in Model)
+    {
+        <div class="card bg-dark text-white">
+            <div>
+                <img src="~/images/@clubAdherentsViewModel.Club.img" height="600" class="card-img" alt="Club Image" style="   border-top-left-radius: 15px; border-top-right-radius: 15px;" />
+
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="card-title">@clubAdherentsViewModel.Club.ClubName -- Responsable @clubAdherentsViewModel.Club.ClubNomResponsable</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    </p>
+                </div>
+                <p class="card-text">Last updated 3 mins ago</p>
+            </div>
+        </div>
+
+        <div class="row mt-3" id="mincard">
+            <h5 class="card-title text-white">Liste Des Adherents</h5>
+            <br><br>
+            @foreach (var adherent in clubAdherentsViewModel.Adherents)
+            {
+
+
+                <div class="col-md-3">
+                    <div class="card bg-dark text-white h-100" style="border-radius: 15px;">
+                        <img src="~/images/@adherent.img" height="300" class="card-img-top" alt="Adherent Image" />
+                        <div class="card-body">
+                            <h5 class="card-title">@adherent.AdherentName -- @adherent.AdherentAdresse</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+        <br /><br />
+        <hr />
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="~/js/app.js"></script>
+

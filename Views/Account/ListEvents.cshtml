@@ -1,0 +1,85 @@
+﻿@model IEnumerable<GestionAdherentsClub.Models.ClubEvent>
+
+
+@{
+    ViewData["Title"] = "ListEvents";
+}
+<style>
+    .text-white {
+        color: white;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mt-3 {
+        margin-top: 1rem; /* Adjust as needed */
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .table th,
+        .table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .table th {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .table td {
+            background-color: transparent;
+        }
+
+
+</style>
+
+
+<h1>ListEvents</h1>
+
+<div style="border: 4px solid #333; border-radius: 15px;">
+
+    @foreach (var clubEvent in Model)
+    {
+        <div class="card bg-dark text-white">
+            <div>
+                <img src="~/images/@clubEvent.img" height="600" class="card-img" alt="event Image" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" />
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-between">
+                <div>
+                    <h5 class="card-title">@clubEvent.EventName</h5>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                    </p>
+                </div>
+                <p class="card-text">Last updated 3 mins ago</p>
+            </div>
+        </div>
+        <table class="table">
+        <thead>
+            <tr>
+                <th>Event Name</th>
+                <th>Event Date</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>@clubEvent.EventName</td>
+                    <td>@clubEvent.EventDate.ToShortDateString()</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+      <br /><hr style="color: white;" /> <br />
+    }
+
+
+</div>

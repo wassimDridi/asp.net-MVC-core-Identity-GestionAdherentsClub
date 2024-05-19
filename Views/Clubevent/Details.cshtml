@@ -1,0 +1,44 @@
+﻿@model GestionAdherentsClub.Models.ClubEvent
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="modal-content">
+
+    <div class="modal-header">
+        <h4 class="modal-title">Event Details</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <div class="modal-body">
+
+        <form action="#" id="myForm">
+
+            <div class="card imgholder">
+                <img src="~/images/@Model.img" alt="Event Image" width="200" height="200" class="showImg">
+            </div>
+
+            <div class="inputField">
+                <div>
+                    <label for="eventName">Event Name:</label>
+                    <input type="text" value="@Model.EventName" disabled>
+                </div>
+                <div>
+                    <label for="eventDate">Event Date:</label>
+                    <input type="text" value="@Model.EventDate" disabled>
+                </div>
+                <div>
+                    <label for="clubName">Club Name:</label>
+                    <input type="text" value="@Model.ClubID" disabled>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ClubEventId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

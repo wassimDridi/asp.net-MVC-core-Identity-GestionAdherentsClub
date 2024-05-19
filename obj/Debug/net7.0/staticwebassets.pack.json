@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GestionAdherentsClub.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GestionAdherentsClub.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\css\\bootes1.css",
+      "PackagePath": "staticwebassets\\css\\bootes1.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\css\\bootes2.css",
+      "PackagePath": "staticwebassets\\css\\bootes2.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\009f3ced-f2dd-4e15-b4b6-57cbf3d2bd0d_TEATER.jpg",
+      "PackagePath": "staticwebassets\\images\\009f3ced-f2dd-4e15-b4b6-57cbf3d2bd0d_TEATER.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\00fec43c-1457-415e-ade4-b67a731a9229_tomas chelby.jpg",
+      "PackagePath": "staticwebassets\\images\\00fec43c-1457-415e-ade4-b67a731a9229_tomas chelby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\0617522a-32a1-4403-987b-c052e60945db_66.jpg",
+      "PackagePath": "staticwebassets\\images\\0617522a-32a1-4403-987b-c052e60945db_66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\09cbc49b-2b0d-4674-8a6b-11c1e4d6670b_MUSIC.jpg",
+      "PackagePath": "staticwebassets\\images\\09cbc49b-2b0d-4674-8a6b-11c1e4d6670b_MUSIC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\0b729bfe-d583-4c17-9b46-dc80db5f9372_taraji.jpg",
+      "PackagePath": "staticwebassets\\images\\0b729bfe-d583-4c17-9b46-dc80db5f9372_taraji.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\116a0585-96e0-406f-8529-85d09adcdca9_MECANIC.jpg",
+      "PackagePath": "staticwebassets\\images\\116a0585-96e0-406f-8529-85d09adcdca9_MECANIC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\127eebc8-c945-481a-99d9-740b47bad402_aaa.jpg",
+      "PackagePath": "staticwebassets\\images\\127eebc8-c945-481a-99d9-740b47bad402_aaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\274a21d1-0005-49bb-849f-1f9c873310cb_taraji.jpg",
+      "PackagePath": "staticwebassets\\images\\274a21d1-0005-49bb-849f-1f9c873310cb_taraji.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\319e7672-f06e-4ae8-9566-b20fcc20fd46_ROBOTIC.jpg",
+      "PackagePath": "staticwebassets\\images\\319e7672-f06e-4ae8-9566-b20fcc20fd46_ROBOTIC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\3223151c-fcdc-4ec4-8cdb-60038f42082c_hffx.jpg",
+      "PackagePath": "staticwebassets\\images\\3223151c-fcdc-4ec4-8cdb-60038f42082c_hffx.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\35f978cd-e394-46c7-b89a-930cf9578956_ffdee.jpg",
+      "PackagePath": "staticwebassets\\images\\35f978cd-e394-46c7-b89a-930cf9578956_ffdee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\3b62084c-1f00-4178-9a8e-3a32b9aee4b4_00.jpg",
+      "PackagePath": "staticwebassets\\images\\3b62084c-1f00-4178-9a8e-3a32b9aee4b4_00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\44039507-a4b6-4b64-97cf-dd7e20ae6f44_CENIMA.jpg",
+      "PackagePath": "staticwebassets\\images\\44039507-a4b6-4b64-97cf-dd7e20ae6f44_CENIMA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\4657a2d2-e44d-4600-881f-efef69fb1ba3_MTC.jpg",
+      "PackagePath": "staticwebassets\\images\\4657a2d2-e44d-4600-881f-efef69fb1ba3_MTC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\4f4cfb89-bf9c-48c6-b1ca-ba0968a49447_96.jpg",
+      "PackagePath": "staticwebassets\\images\\4f4cfb89-bf9c-48c6-b1ca-ba0968a49447_96.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\505f6244-0ba8-4531-bb3d-c93ad077c1a6_dd.jpg",
+      "PackagePath": "staticwebassets\\images\\505f6244-0ba8-4531-bb3d-c93ad077c1a6_dd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\51c76147-4862-4319-806b-2bf50ff6e3fd_jjhd.jpg",
+      "PackagePath": "staticwebassets\\images\\51c76147-4862-4319-806b-2bf50ff6e3fd_jjhd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\5e646005-2054-44b2-8eeb-f75f31a30912_22.jpg",
+      "PackagePath": "staticwebassets\\images\\5e646005-2054-44b2-8eeb-f75f31a30912_22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\60c74456-9182-4255-bea1-131736e585e2_pp.jpg",
+      "PackagePath": "staticwebassets\\images\\60c74456-9182-4255-bea1-131736e585e2_pp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\68d8368a-f764-46a2-bcc6-3bf745ff4bdf_premier.png",
+      "PackagePath": "staticwebassets\\images\\68d8368a-f764-46a2-bcc6-3bf745ff4bdf_premier.png"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\75849ebf-20f3-4261-8108-75c127bf933e_CENIMA.jpg",
+      "PackagePath": "staticwebassets\\images\\75849ebf-20f3-4261-8108-75c127bf933e_CENIMA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\76e24634-aab6-46e6-b27d-3db80890252d_ddd.jpg",
+      "PackagePath": "staticwebassets\\images\\76e24634-aab6-46e6-b27d-3db80890252d_ddd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\77cb0d84-1016-4fcf-8833-aa2b29dbda12_sdfsd.jpg",
+      "PackagePath": "staticwebassets\\images\\77cb0d84-1016-4fcf-8833-aa2b29dbda12_sdfsd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\7810daaf-abc1-4658-9c7a-8a739ae8f479_TEATER.jpg",
+      "PackagePath": "staticwebassets\\images\\7810daaf-abc1-4658-9c7a-8a739ae8f479_TEATER.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\ad0da89c-3528-415d-bc9e-934f3c90cf56_qss.jpg",
+      "PackagePath": "staticwebassets\\images\\ad0da89c-3528-415d-bc9e-934f3c90cf56_qss.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\b0f6b040-2dfc-474f-aa96-75df4609c57e_arther.jpg",
+      "PackagePath": "staticwebassets\\images\\b0f6b040-2dfc-474f-aa96-75df4609c57e_arther.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\b113b580-4cbe-4b18-9a44-935da41f94b4_CENIMA.jpg",
+      "PackagePath": "staticwebassets\\images\\b113b580-4cbe-4b18-9a44-935da41f94b4_CENIMA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\d8675d87-95b6-437d-b87d-bc4e9246cba6_ffde.jpg",
+      "PackagePath": "staticwebassets\\images\\d8675d87-95b6-437d-b87d-bc4e9246cba6_ffde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\dccae6b5-c0a6-41ca-95b9-f2a6a3c9855f_ffde.jpg",
+      "PackagePath": "staticwebassets\\images\\dccae6b5-c0a6-41ca-95b9-f2a6a3c9855f_ffde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\delete.png",
+      "PackagePath": "staticwebassets\\images\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\details.png",
+      "PackagePath": "staticwebassets\\images\\details.png"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\ea04a828-6e40-4c53-9827-1bed9e2eb499_58.jpg",
+      "PackagePath": "staticwebassets\\images\\ea04a828-6e40-4c53-9827-1bed9e2eb499_58.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\ebdb6035-283d-4d0e-be05-8e6a040207ee_tomass.jpg",
+      "PackagePath": "staticwebassets\\images\\ebdb6035-283d-4d0e-be05-8e6a040207ee_tomass.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\edit.png",
+      "PackagePath": "staticwebassets\\images\\edit.png"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\f39860ca-6bc5-42af-b383-7cfaef618969_ROBOTIC.jpg",
+      "PackagePath": "staticwebassets\\images\\f39860ca-6bc5-42af-b383-7cfaef618969_ROBOTIC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\fa51bf0c-d295-4962-afbb-ba18ad290ac8_lkj.jpg",
+      "PackagePath": "staticwebassets\\images\\fa51bf0c-d295-4962-afbb-ba18ad290ac8_lkj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\logosite.png",
+      "PackagePath": "staticwebassets\\images\\logosite.png"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\images\\noacess.png",
+      "PackagePath": "staticwebassets\\images\\noacess.png"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\js\\bootesJS.js",
+      "PackagePath": "staticwebassets\\js\\bootesJS.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min (1).css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min (1).css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moulinville\\Desktop\\asp mvc\\GestionAdherentsClub\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GestionAdherentsClub.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.GestionAdherentsClub.props",
+      "PackagePath": "build\\GestionAdherentsClub.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GestionAdherentsClub.props",
+      "PackagePath": "buildMultiTargeting\\GestionAdherentsClub.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.GestionAdherentsClub.props",
+      "PackagePath": "buildTransitive\\GestionAdherentsClub.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

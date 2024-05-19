@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<br />
+<hr style="color: white;" />
+<br />
+<div class="container mt-4">
+    <h2 class="text-center mb-4" style="color: white; background-color: transparent; padding: 10px;">ClubHub</h2>
+    <p class="text-muted" style="background-color: transparent; padding: 15px; color:white;">
+        Cette usine de production, dont la surface est de 1500 m², dispose d'un parc machine de pointe et d'un pôle qualité.
+        Elle touche une multitude de secteurs d’activité comme l’automobile, électroménager, agriculture, électricité, bâtiment, sports et loisirs…
+    </p>
+
+    <br />
+    <hr style="color: white;" />
+    <br />
+
+    <h2 class="text-center mb-4" style="color: white; background-color: transparent; padding: 10px;">Contact Us</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="~/images/about.jpg" class="img-fluid" alt="Logo" style="border-radius:30px; width: 80%; height:80%;">
+        </div>
+        <div class="col-md-6 text-muted" style="background-color: transparent; padding: 15px; color:white;  border-left: 1px solid white;">
+            <h4>Contact Information</h4>
+            <p >
+                <strong>Email:</strong> mtrsfax@gmail.com
+                <button class="nav-link btn btn-outline-primary text-white py-0" onclick="handleCopy('mtrsfax@gmail.com', 'copiedEmail')">Copy</button><br>
+                <br />
+                <hr style="color: white;" />
+                <br />
+                <strong>Phone:</strong> +216 21 235 555
+                <button class="nav-link btn btn-outline-primary text-white py-0" style=" border-color: rgb(55, 131, 234);" onclick="handleCopy('+216 21 235 555', 'copiedPhone')">Copy</button><br>
+                <strong>Location:</strong> ZI EI Ons Rte de Tunis Km 10 sakiet ezzit 3021 BP 237 Sfax-Tunisie
+            </p>
+        </div>
+    </div>
+
+    <br />
+    <hr style="color: white;" />
+    <br />
+
+    <h2 class="text-center mb-4" style="color: white; background-color: transparent; padding: 10px;">Our Services</h2>
+    <div class="row" style="color:white;">
+        <div class="col" style="background-color: transparent; padding: 15px; ">
+            <h4>EVENNEMENT</h4>
+            <p>Amortit les chocs, évite les vibrations, soumis à une compression.</p>
+        </div>
+
+        <div class="col" style="background-color: transparent; padding: 15px; border-left: 1px solid white;">
+            <h4>CLUBs</h4>
+            <p>Utilisés dans divers objets quotidiens, soumis à un étirement, crochetés aux deux extrémités.</p>
+        </div>
+        <div class="col" style="background-color: transparent; padding: 15px; border-left: 1px solid white;">
+            <h4>INSCRE TO ADHEREBT</h4>
+            <p>Utilisés dans un très grand nombre de mécanismes, jouant le rôle de rappel, de freinage progressif ou d’assistance au lancement.</p>
+        </div>
+    </div>
+    <br />
+    <hr style="color: white;" />
+    <br />
+
+
+    <div style="width: 100%;">
+        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=manufacture%20MTR%20%20RPGQ+7J8?%20Sakit%20Ezzit,%20Tunisie+(mtr)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                title="Manufacture Tunisienne des Ressorts">
+        </iframe>
+    </div>
+</div>
+
+<script>
+    function handleCopy(text, copiedState) {
+        const tempInput = document.createElement('input');
+        tempInput.value = text;
+
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+
+        document.getElementById(copiedState).innerText = 'Copied!';
+
+        setTimeout(() => {
+            document.getElementById(copiedState).innerText = '';
+        }, 1500);
+    }
+</script>

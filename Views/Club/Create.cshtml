@@ -1,0 +1,79 @@
+﻿@model GestionAdherentsClub.Models.Club
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+<br /><br /><br />
+
+<div class="modal-content">
+
+    <div class="modal-header">
+        <h4 class="modal-title"> Create Adherent </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <div class="modal-body">
+
+        <form enctype="multipart/form-data" asp-action="Create" id="myForm">
+
+            <div class="card imgholder">
+                <label for="imgInput" class="upload">
+                    <input type="file" name="image" id="imgInput">
+                    <i class="bi bi-plus-circle-dotted"></i>
+                </label>
+                <img src="~/images/noacess.png" alt="" width="200" height="200" class="img" id="selectedImage">
+            </div>
+
+            <div class="inputField">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="ClubName" class="control-label"></label>
+                    <input asp-for="ClubName" class="form-control" />
+                    <span asp-validation-for="ClubName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClubNomResponsable" class="control-label"></label>
+                    <input asp-for="ClubNomResponsable" class="form-control" />
+                    <span asp-validation-for="ClubNomResponsable" class="text-danger"></span>
+                </div>
+             
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+
+        </form>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        // Add event listener to input file element
+        document.getElementById('imgInput').addEventListener('change', function () {
+            // Get the selected file
+            var file = this.files[0];
+            // Create object URL from the selected file
+            var objectURL = URL.createObjectURL(file);
+            // Update the src attribute of the image element with the object URL
+            document.getElementById('selectedImage').src = objectURL;
+        });
+    </script>
+}
